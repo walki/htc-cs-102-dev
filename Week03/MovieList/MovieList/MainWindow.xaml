@@ -1,0 +1,23 @@
+﻿<Window x:Class="MovieList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieList"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal">
+        <Label HorizontalAlignment="Left">Title</Label>
+        <TextBox HorizontalAlignment="Right" MinWidth="200"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+        <Label HorizontalAlignment="Left">Release Year</Label>
+        <TextBox HorizontalAlignment="Right" MinWidth="155"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button HorizontalAlignment="Left" MinWidth="80" Margin="0,0,10,0">Add</Button>
+        <Button HorizontalAlignment="Right" Margin="10,0,0,0">Show All Movies</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
